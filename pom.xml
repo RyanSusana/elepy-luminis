@@ -13,8 +13,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>7</source>
-                    <target>7</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -26,6 +26,17 @@
             <groupId>com.elepy</groupId>
             <artifactId>elepy-admin</artifactId>
             <version>1.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.elepy</groupId>
+            <artifactId>elepy-core</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.fakemongo</groupId>
+            <artifactId>fongo</artifactId>
+            <version>2.2.0-RC2</version>
         </dependency>
     </dependencies>
 </project>

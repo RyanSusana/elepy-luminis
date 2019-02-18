@@ -1,6 +1,7 @@
 package com.elepy.eluminis.iot;
 
 
+import com.elepy.annotations.PrettyName;
 import com.elepy.eluminis.external.AssistantType;
 
 /**
@@ -8,9 +9,9 @@ import com.elepy.eluminis.external.AssistantType;
  * Remember we have to pretend like we can't change the Eluminis Library
  */
 public enum Assistant {
-    SIRI(AssistantType.SIRI),
-    GOOGLE(AssistantType.GOOGLE_ASSISTANT),
-    ALEXA(AssistantType.AMAZON_ALEXA);
+    @PrettyName("Siri") SIRI(AssistantType.SIRI),
+    @PrettyName("Google Assistant") GOOGLE(AssistantType.GOOGLE_ASSISTANT),
+    @PrettyName("Amazon Alexa") ALEXA(AssistantType.AMAZON_ALEXA);
 
     private final AssistantType eluminisLibraryType;
 
