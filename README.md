@@ -1,3 +1,5 @@
+Eluminis is a fictional software solutions company.
+
 # The Project
 Eluminis noticed the rise of IoT powered homes. They also noticed that people used different systems (Alexa, Google Assistant and Siri) to power their homes. These users sometimes even combined home systems for some odd reason.
 Eluminis decided that they should implement a system where users can easily control their homes from a web-interface and eventually an app.
